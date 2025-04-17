@@ -1,7 +1,7 @@
 <!-- src/App.vue -->
 <template>
   <div class="container">
-    <h1>📋 Task Manager</h1>
+    <h1> Tasks </h1>
 
     <form @submit.prevent="handleCreate">
       <input v-model="newTask.title" placeholder="Title" required />
